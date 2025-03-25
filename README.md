@@ -51,14 +51,38 @@ The project is structured using **MVVM**, **dependency injection**, and includes
 
 ```
 CourseApp/
-├── Converters/                  # Value converters (e.g., StringToBoolConverter)
-├── Models/                      # Domain models (e.g., User)
-├── Services/                    # Business logic (AuthService)
-├── ViewModels/                 # MVVM ViewModels
-├── Views/                       # XAML Pages (Login, Profile, Registration)
-├── Resources/Languages/         # Localization .resx files (en, de, th)
-├── Tests/                       # xUnit unit tests
-└── .github/workflows/           # CI GitHub Actions pipeline
+├── App.xaml
+├── App.xaml.cs
+├── MauiProgram.cs
+├── Converters/
+│   └── StringToBoolConverter.cs
+├── Models/
+│   └── User.cs
+├── Services/
+│   └── AuthService.cs
+├── ViewModels/
+│   ├── LoginViewModel.cs
+│   ├── ProfileViewModel.cs
+│   └── CourseRegistrationViewModel.cs
+├── Views/
+│   ├── LoginPage.xaml
+│   ├── LoginPage.xaml.cs
+│   ├── ProfilePage.xaml
+│   ├── ProfilePage.xaml.cs
+│   ├── CourseRegistrationPage.xaml
+│   └── CourseRegistrationPage.xaml.cs
+├── Resources/
+│   └── Languages/
+│       ├── Strings.en.resx
+│       ├── Strings.de.resx
+│       └── Strings.th.resx
+Tests/
+.github/
+└── workflows/
+    └── ci.yml
+
+DOCUMENTATION.md ✅
+
 ```
 
 ---
