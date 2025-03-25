@@ -81,8 +81,6 @@ Tests/
 └── workflows/
     └── ci.yml
 
-DOCUMENTATION.md ✅
-
 ```
 
 ---
