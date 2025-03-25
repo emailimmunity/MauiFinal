@@ -1,0 +1,1 @@
+// CourseRegistrationViewModel code
