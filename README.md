@@ -30,4 +30,4 @@ The app serves as a course registration application for students:
 - It is possible to search for courses and register new courses for the current semester.
 - Courses that have already been registered can be deregistered.
 
-Multilingualism has been added - the language connects -
+Multilingualism has been added - because language connects -
